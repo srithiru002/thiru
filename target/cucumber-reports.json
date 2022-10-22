@@ -1,0 +1,354 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-22T01:29:20.828Z",
+        "line": 5,
+        "name": "To validate compose button click",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-compose-button-click",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18927000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch the browser and login to Gmail Account",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_launch_the_browser_and_login_to_gmail_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10487000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the Compose email button",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_click_the_compose_email_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6411000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "New pop-up should be displayed with the headers as a new message",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.new_pop_up_should_be_displayed_with_the_headers_as_a_new_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:29:56.893Z",
+        "line": 11,
+        "name": "To validate TO section in new mesage box",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-to-section-in-new-mesage-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should enter the receiver email ID",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_enter_the_receiver_email_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Email ID is should passed in the to section",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.email_id_is_should_passed_in_the_to_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:29:57.213Z",
+        "line": 16,
+        "name": "To validate the auto-suggestion list of previously entered email IDs is displaying or not",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-the-auto-suggestion-list-of-previously-entered-email-ids-is-displaying-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16363000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should enter the receiver email ID in the TO section",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_enter_the_receiver_email_id_in_the_to_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30436000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Auto Suggestion of the email ID should pop-up",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.auto_suggestion_of_the_email_id_should_pop_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:30:44.023Z",
+        "line": 22,
+        "name": "To validate user is able to add multiple receiver email IDs",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-user-is-able-to-add-multiple-receiver-email-ids",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should enter multiple receiver email IDs in the TO section",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_enter_multiple_receiver_email_i_ds_in_the_to_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Multiple receiver email IDs should be passed",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.multiple_receiver_email_i_ds_should_be_passed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:30:45.063Z",
+        "line": 27,
+        "name": "To validate user can enter the subject line in the subject text box",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-user-can-enter-the-subject-line-in-the-subject-text-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7275000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should enter subject in the Subject section",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_enter_subject_in_the_subject_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User typed text should be pass in the subject field",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_typed_text_should_be_pass_in_the_subject_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:30:52.427Z",
+        "line": 32,
+        "name": "To validate user can type in the email body area",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-user-can-type-in-the-email-body-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 380000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should type the message in the email body message area",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_type_the_message_in_the_email_body_message_area()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User typed text should be pass in the message body area",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_typed_text_should_be_pass_in_the_message_body_area()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:30:52.918Z",
+        "line": 37,
+        "name": "To validate user can click and perform Formatting options",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-validate-user-can-click-and-perform-formatting-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should click the formatting option",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_click_the_formatting_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Formatting dialog box should be pop-up",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.formatting_dialog_box_should_be_pop_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T01:30:53.026Z",
+        "line": 42,
+        "name": "To check Check after hitting the send button the email should be delivered or not",
+        "description": "",
+        "id": "to-check-the-compose-functionality-in-gmail;to-check-check-after-hitting-the-send-button-the-email-should-be-delivered-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8776000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should click send button",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_should_click_send_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4444000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Sent message successfully pop-up will be shown",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.sent_message_successfully_pop_up_will_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To check the compose functionality in Gmail",
+    "description": "",
+    "id": "to-check-the-compose-functionality-in-gmail",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Compose.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
